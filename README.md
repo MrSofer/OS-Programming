@@ -12,7 +12,7 @@ A custom command-line interpreter that interacts directly with the OS API.
     * **Piping & Redirection:** Implements multi-stage pipelines (`|`) and file redirection (`>`, `<`) by manipulating file descriptors (`dup2`, `pipe`).
     * **Signal Handling:** Custom handlers for `SIGINT` (Ctrl+C) to ensure shell stability while managing child processes.
 
-### 2. Kernel Message Slot (`/Message_Slot`)
+### 2. Kernel Message Slot (`/Message Slot`)
 A character device driver loaded as a kernel module.
 * **Key Features:**
     * Implemented `ioctl` interface for custom IPC.
@@ -24,7 +24,7 @@ A Printer-Counting-Client server system.
     * TCP/IP socket programming.
     * Multi-threaded server design to handle high-concurrency connections.
 
-### 4. Concurrency & Synchronization (`/Mutex_Queue`)
+### 4. Concurrency & Synchronization (`/Mutex Queue`)
 * **Key Features:**
     * Thread-safe queue implementation using `pthread_mutex` and condition variables.
 
